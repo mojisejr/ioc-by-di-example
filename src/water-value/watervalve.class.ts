@@ -9,3 +9,12 @@ export class WaterValve {
     console.log("ปิดวาล์วด้วยมือ");
   }
 }
+
+export class ServoWaterValve {
+  open() {
+    console.log("เปิดวาล์วด้วย Servo Motor");
+  }
+  close() {
+    console.log("ปิดวาล์วด้วย Servo Motor");
+  }
+}
